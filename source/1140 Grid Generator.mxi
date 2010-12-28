@@ -1,0 +1,24 @@
+<macromedia-extension name="1140 Grid Generator" version="1.0.0" type="Command">
+	<author name="Dalibor Simacek" />
+	<products>
+		<product name="Fireworks" version="6" primary="true" />
+	</products>
+	<description>
+		<![CDATA[
+			This set of commands generates a 12 column grid guidelines in total width of 1133px in current file. It's best to be used together with awesome fluid http://cssgrid.net/. 
+      
+      Why 1133px? On the grid's website, you can read this explanation for the PSD template: "It's based on how it's displayed in WebKit, so it's actually 1133px, as all browsers round sub-pixels slightly differently."
+      
+      The script is based on a Nathan Smith's 960.gs grid generator.
+		]]>
+	</description>
+	<ui-access>
+		<![CDATA[
+			You can run these commands from Commands menu.
+		]]>
+	</ui-access>
+	<files>
+		<file name="Generate 12 columns grid.jsf" destination="$fireworks/configuration/commands/1140 Grid" />
+	</files>
+	<configuration-changes></configuration-changes>
+</macromedia-extension>
