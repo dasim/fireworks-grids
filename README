@@ -1,3 +1,7 @@
 Just a small command script I created to generate 12 columns guidelines grid in Fireworks. More grid combinations probably to come when I need them.
 
 Especially useful together with cssgrid.net.
+
+Tested only in Adobe Fireworks CS5. Use the Adobe Extension Manager to install the command.
+
+The script is originally based on Nathan Smith's 960.gs grid generator for Fireworks. Thanks!  
